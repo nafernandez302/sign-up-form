@@ -17,21 +17,45 @@
             </div>
         <div class="form">
             <div>Let's do this!</div>
-            <div class="input-container">
-                <form action="example.com/path" method="post">
-                    <label for="first_name">FIRST NAME</label>
-                    <input type="text" id="first_name" placeholder="Insert your name here">
-                    <label for="last_name">LAST NAME</label>
-                    <input type="text" id="last_name" placeholder="Insert your name">
-                    <label for="email">EMAIL</label>
-                    <input type="email" id="email" >
-                    <label for="phone_number">PHONE NUMBER</label>
-                    <input type="number" id="phone_number">
-                    <label for="password">PASSWORD</label>
-                    <input type="password" id="password">
-                    <label for="confirm_password">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm_password">
-
+            <div class="form-container">
+                <form action="example.com/path" method="post"> 
+                    <div class="input-box">
+                        <div class="input">
+                            <label for="first_name">FIRST NAME</label>
+                            <br>
+                            <input type="text" id="first_name" placeholder="Insert your name here" name="first_name">
+                        </div>
+                        <div class="input">
+                            <label for="last_name">LAST NAME</label>
+                            <br>
+                            <input type="text" id="last_name" placeholder="Insert your name" name="last_name">
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <div class="input">
+                            <label for="email">EMAIL</label>
+                            <br>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="input">
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <br>
+                            <input type="number" id="phone_number" name="phone_number">
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <div class="input">
+                            <label for="password">PASSWORD</label>
+                            <br>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div class="input">
+                            <label for="confirm_password">CONFIRM PASSWORD</label>
+                            <br>
+                            <input type="password" id="confirm_password" name="confirm_password">
+                        </div>
+                    </div>
+                </form>
             </div>
             <div class="button create-account"></div>
             <div class="login">
