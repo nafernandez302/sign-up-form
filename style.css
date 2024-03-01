@@ -45,16 +45,33 @@ body{
     width: 70%;
     max-height: 90%;
     flex: 1 1 auto;
-    padding: 150px 30px;
     margin: 10px;
+    margin-left: 0px;
+}
+.right-part > div{
+    padding: 30px;
 }
 
+.form{
+    background-color: rgb(6, 7, 39);
+}
 .input-box{
     display:flex;
     justify-content: space-between;
     max-width: 60%;
+    padding: 10px;
 }
 
+input:invalid {
+    border-color: red;
+  }
+
+input:valid {
+    border-color: green;
+}
+input:focus{
+    border-color: rgb(51, 0, 255);
+}
 .form-container{
     padding:10px;
 }
