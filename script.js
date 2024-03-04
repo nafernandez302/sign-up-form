@@ -20,3 +20,13 @@ password.addEventListener("input", (event) => {
         currentConfirmPassword.setCustomValidity("Passwords don't match");
     }
 });
+
+const createAccount = document.getElementById("create-account");
+
+createAccount.addEventListener("click", (event)=>{
+    console.log("hola");
+    const output = document.querySelector("#output-event");
+    output.innerHTML = ""; // Limpiar el contenido anterior
+    output.textContent = "Account created succesfuly!";
+});
+

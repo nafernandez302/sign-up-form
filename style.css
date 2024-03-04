@@ -112,3 +112,7 @@ button.create-account:hover {
 button.create-account:focus {
     outline: none;
 }
+
+#output-event{
+    font-weight: bold;
+}
